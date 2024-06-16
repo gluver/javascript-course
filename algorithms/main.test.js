@@ -8,7 +8,7 @@ test('cumulative sum of an array', () => {
 
 
 import { binarySearch } from './bs';
-test('binary binarySearch', () => {
+test('binary search', () => {
   expect(binarySearch([1, 3, 5, 7], 5)).toBe(2);
   expect(binarySearch([1, 3, 5, 7], 2)).toBe(-1);
 } );
